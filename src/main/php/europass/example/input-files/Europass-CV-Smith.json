@@ -1,0 +1,295 @@
+{
+  "SkillsPassport" : {
+    "Locale" : "en",
+    "DocumentInfo" : {
+      "DocumentType" : "ECV",
+      "CreationDate" : "2013-07-01T07:18:01.579Z",
+      "LastUpdateDate" : "2013-07-01T07:18:01.579Z",
+      "XSDVersion" : "V3.0",
+      "Generator" : "REST_WS",
+      "Comment" : "Europass CV"
+    },
+    "PrintingPreferences" : {
+      "ECV" : [ {
+        "name" : "LearnerInfo",
+        "show" : true,
+        "order" : "Identification Headline WorkExperience Education Skills Achievement ReferenceTo"
+      }, {
+        "name" : "LearnerInfo.Identification",
+        "show" : true
+      }, {
+        "name" : "LearnerInfo.Identification.PersonName",
+        "show" : true,
+        "order" : "FirstName Surname"
+      }, {
+        "name" : "LearnerInfo.Identification.ContactInfo.Address",
+        "show" : true
+      }, {
+        "name" : "LearnerInfo.Identification.ContactInfo.Email",
+        "show" : true
+      }, {
+        "name" : "LearnerInfo.Identification.ContactInfo.Telephone",
+        "show" : true
+      }, {
+        "name" : "LearnerInfo.Identification.ContactInfo.Telephone[0]",
+        "show" : true
+      }, {
+        "name" : "LearnerInfo.Identification.ContactInfo.Website",
+        "show" : false
+      }, {
+        "name" : "LearnerInfo.Identification.ContactInfo.Website[0]",
+        "show" : false
+      }, {
+        "name" : "LearnerInfo.Identification.ContactInfo.InstantMessaging",
+        "show" : false
+      }, {
+        "name" : "LearnerInfo.Identification.ContactInfo.InstantMessaging[0]",
+        "show" : false
+      }, {
+        "name" : "LearnerInfo.Identification.Demographics.Birthdate",
+        "show" : true,
+        "format" : "text/long"
+      }, {
+        "name" : "LearnerInfo.Identification.Demographics.Gender",
+        "show" : false
+      }, {
+        "name" : "LearnerInfo.Identification.Demographics.Nationality",
+        "show" : false
+      }, {
+        "name" : "LearnerInfo.Identification.Demographics.Nationality[0]",
+        "show" : false
+      }, {
+        "name" : "LearnerInfo.Identification.Photo",
+        "show" : false
+      }, {
+        "name" : "LearnerInfo.Headline",
+        "show" : true
+      }, {
+        "name" : "LearnerInfo.WorkExperience",
+        "show" : true
+      }, {
+        "name" : "LearnerInfo.WorkExperience[0]",
+        "show" : true
+      }, {
+        "name" : "LearnerInfo.WorkExperience[0].Period",
+        "show" : true,
+        "format" : "text/long"
+      }, {
+        "name" : "LearnerInfo.WorkExperience[0].ReferenceTo",
+        "show" : false
+      }, {
+        "name" : "LearnerInfo.WorkExperience[0].ReferenceTo[0]",
+        "show" : false
+      }, {
+        "name" : "LearnerInfo.WorkExperience[0].Position",
+        "show" : true
+      }, {
+        "name" : "LearnerInfo.WorkExperience[0].Activities",
+        "show" : true
+      }, {
+        "name" : "LearnerInfo.WorkExperience[0].Employer",
+        "show" : false
+      }, {
+        "name" : "LearnerInfo.WorkExperience[0].Employer.ContactInfo.Address",
+        "show" : false
+      }, {
+        "name" : "LearnerInfo.WorkExperience[0].Employer.ContactInfo.Website",
+        "show" : false
+      }, {
+        "name" : "LearnerInfo.WorkExperience[0].Employer.Sector",
+        "show" : false
+      }, {
+        "name" : "LearnerInfo.Education",
+        "show" : true
+      }, {
+        "name" : "LearnerInfo.Education[0]",
+        "show" : true
+      }, {
+        "name" : "LearnerInfo.Education[0].Period",
+        "show" : true,
+        "format" : "text/short"
+      }, {
+        "name" : "LearnerInfo.Education[0].ReferenceTo",
+        "show" : false
+      }, {
+        "name" : "LearnerInfo.Education[0].ReferenceTo[0]",
+        "show" : false
+      }, {
+        "name" : "LearnerInfo.Education[0].Title",
+        "show" : true
+      }, {
+        "name" : "LearnerInfo.Education[0].Activities",
+        "show" : true
+      }, {
+        "name" : "LearnerInfo.Education[0].Organisation",
+        "show" : true
+      }, {
+        "name" : "LearnerInfo.Education[0].Organisation.ContactInfo.Address",
+        "show" : false,
+        "format" : "s p-z m (c)"
+      }, {
+        "name" : "LearnerInfo.Education[0].Level",
+        "show" : false
+      }, {
+        "name" : "LearnerInfo.Education[0].Field",
+        "show" : false
+      }, {
+        "name" : "LearnerInfo.Skills",
+        "show" : true
+      }, {
+        "name" : "LearnerInfo.Skills.Linguistic.MotherTongue",
+        "show" : true
+      }, {
+        "name" : "LearnerInfo.Skills.Linguistic.MotherTongue[0]",
+        "show" : true
+      }, {
+        "name" : "LearnerInfo.Skills.Linguistic.ForeignLanguage",
+        "show" : true
+      }, {
+        "name" : "LearnerInfo.Skills.Linguistic.ForeignLanguage[0]",
+        "show" : true
+      }, {
+        "name" : "LearnerInfo.Skills.Linguistic.ForeignLanguage[0].ReferenceTo",
+        "show" : false
+      }, {
+        "name" : "LearnerInfo.Skills.Linguistic.ForeignLanguage[0].ReferenceTo[0]",
+        "show" : false
+      }, {
+        "name" : "LearnerInfo.Skills.Linguistic.ForeignLanguage[0].Certificate",
+        "show" : false
+      }, {
+        "name" : "LearnerInfo.Skills.Linguistic.ForeignLanguage[0].Certificate[0]",
+        "show" : false
+      }, {
+        "name" : "LearnerInfo.Skills.Communication",
+        "show" : true
+      }, {
+        "name" : "LearnerInfo.Skills.Communication.ReferenceTo",
+        "show" : false
+      }, {
+        "name" : "LearnerInfo.Skills.Communication.ReferenceTo[0]",
+        "show" : false
+      }, {
+        "name" : "LearnerInfo.Skills.Organisational",
+        "show" : true
+      }, {
+        "name" : "LearnerInfo.Skills.Organisational.ReferenceTo",
+        "show" : false
+      }, {
+        "name" : "LearnerInfo.Skills.Organisational.ReferenceTo[0]",
+        "show" : false
+      }, {
+        "name" : "LearnerInfo.Skills.JobRelated",
+        "show" : true
+      }, {
+        "name" : "LearnerInfo.Skills.JobRelated.ReferenceTo",
+        "show" : false
+      }, {
+        "name" : "LearnerInfo.Skills.JobRelated.ReferenceTo[0]",
+        "show" : false
+      }, {
+        "name" : "LearnerInfo.Skills.Computer",
+        "show" : true
+      }, {
+        "name" : "LearnerInfo.Skills.Computer.ReferenceTo",
+        "show" : false
+      }, {
+        "name" : "LearnerInfo.Skills.Computer.ReferenceTo[0]",
+        "show" : false
+      }, {
+        "name" : "LearnerInfo.Skills.Driving",
+        "show" : false
+      }, {
+        "name" : "LearnerInfo.Skills.Driving.ReferenceTo",
+        "show" : false
+      }, {
+        "name" : "LearnerInfo.Skills.Driving.ReferenceTo[0]",
+        "show" : false
+      }, {
+        "name" : "LearnerInfo.Skills.Other",
+        "show" : false
+      }, {
+        "name" : "LearnerInfo.Skills.Other.ReferenceTo",
+        "show" : false
+      }, {
+        "name" : "LearnerInfo.Skills.Other.ReferenceTo[0]",
+        "show" : false
+      }, {
+        "name" : "LearnerInfo.Achievement",
+        "show" : false
+      }, {
+        "name" : "LearnerInfo.Achievement[0]",
+        "show" : false
+      }, {
+        "name" : "LearnerInfo.Achievement[0].ReferenceTo",
+        "show" : false
+      }, {
+        "name" : "LearnerInfo.Achievement[0].ReferenceTo[0]",
+        "show" : false
+      }, {
+        "name" : "LearnerInfo.ReferenceTo",
+        "show" : false
+      }, {
+        "name" : "LearnerInfo.ReferenceTo[0]",
+        "show" : false
+      } ]
+    },
+    "LearnerInfo" : {
+      "Identification" : {
+        "PersonName" : {
+          "FirstName" : "John",
+          "Surname" : "Smith"
+        },
+        "ContactInfo" : {
+          "Address" : {
+            "Contact" : {
+              "AddressLine" : "51st Avenue",
+              "PostalCode" : "12345",
+              "Municipality" : "NY",
+              "Country" : {
+                "Label" : "Usa"
+              }
+            }
+          },
+          "Email" : {
+            "Contact" : "jsmith@mail.com"
+          }
+        },
+        "Demographics" : {
+          "Birthdate" : {
+            "Year" : 1980,
+            "Month" : 10,
+            "Day" : 10
+          }
+        }
+      },
+      "WorkExperience" : [ {
+        "Period" : {
+          "From" : {
+            "Year" : 2005,
+            "Month" : 10
+          },
+          "To" : {
+            "Year" : 2010,
+            "Month" : 10
+          },
+          "Current" : false
+        },
+        "Position" : {
+          "Code" : "12262",
+          "Label" : "Production and operations department manager in communications"
+        }
+      } ],
+      "Skills" : {
+        "Linguistic" : {
+          "MotherTongue" : [ {
+            "Description" : {
+              "Code" : "en",
+              "Label" : "English"
+            }
+          } ]
+        }
+      }
+    }
+  }
+}
